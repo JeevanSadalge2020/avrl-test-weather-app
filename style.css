@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #4472c4;
+  --sec-color: #fff;
+  ---ter-color: #000;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  padding: 2%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: space-around;
+  justify-content: space-around;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2,
+h1 {
+  margin-bottom: 0;
+}
+
+input {
+  padding: 0.5rem;
+  font-size: 1.1rem;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+  display: grid;
+  place-items: center;
+  padding: 1rem 0;
+}
+
+li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+
+button {
+  padding: 0.5rem 0.75rem;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.bg-primary {
+  background-color: var(--primary-color);
+  color: var(--sec-color);
+}
+
+.btn {
+  background-color: var(--primary-color);
+  color: var(--sec-color);
+}
+
+table,
+th,
+td {
+  border: 1px solid var(---ter-color);
+  text-align: center;
+  padding: 0.5rem 1.5rem;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 1rem;
+}
+
+.right {
+  padding: 2rem;
+  border: 1px solid var(---ter-color);
+}
+
+.inputForm {
+  margin-bottom: 2rem;
+}

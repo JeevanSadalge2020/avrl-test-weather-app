@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <header class="bg-primary">
+      <h1>Jeevan Weather App</h1>
+    </header>
+    <main>
+      <aside class="left">
+        <button type="submit" class="btn" id="getWeatherBtn">
+          Get Weather
+        </button>
+        <table>
+          <tr>
+            <th class="bg-primary">City</th>
+          </tr>
+          <tr>
+            <td class="london city">London</td>
+          </tr>
+          <tr>
+            <td class="new york city">New York</td>
+          </tr>
+          <tr>
+            <td class="los angeles city">Los Angeles</td>
+          </tr>
+          <tr>
+            <td class="las vegas city">Las Vegas</td>
+          </tr>
+        </table>
+      </aside>
+      <div class="right">
+        <div class="inputForm">
+          <input type="text" name="city" id="city" />
+          <input type="submit" value="Search" class="bg-primary search-btn" />
+        </div>
+        <table>
+          <tr class="main-table">
+            <th class="bg-primary">City</th>
+            <th class="bg-primary">Description</th>
+            <th class="bg-primary">Temperature in cel</th>
+            <th class="bg-primary">Pressure in hPa</th>
+            <th class="bg-primary">Data age in hrs</th>
+          </tr>
+          <tr>
+            <td colspan="6" height="200px" class="none">NO DATA</td>
+          </tr>
+        </table>
+      </div>
+      <a href=""></a>
+    </main>
+  </body>
+</html>
